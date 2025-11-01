@@ -7,10 +7,23 @@ import { sponsorsData, type Sponsor } from '@/data/sponsors';
 
 // Component to handle sponsor logos with fallback
 function SponsorLogo({ sponsor }: { sponsor: Sponsor }) {
+  const [imageError, setImageError] = useState(false);
+
+  if (imageError || !sponsor.logo) {
+    return (
+      <div className="text-6xl font-bold text-osu-orange/50 text-center">
+        {sponsor.name.charAt(0)}
+      </div>
+    );
+  }
+
   return (
-    <div className="text-6xl font-bold text-osu-orange/50 text-center">
-      {sponsor.name.charAt(0)}
-    </div>
+    <img
+      src={sponsor.logo}
+      alt={`${sponsor.name} logo`}
+      className="w-full h-full object-contain p-8"
+      onError={() => setImageError(true)}
+    />
   );
 }
 

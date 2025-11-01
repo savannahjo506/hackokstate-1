@@ -59,14 +59,18 @@ export default function InfoPage() {
   const schedule = [
     { time: 'Saturday 9:30 AM', event: 'Doors Open & Check-in', description: 'Get your badge and swag!' },
     { time: 'Saturday 11:30 AM', event: 'Opening Ceremony', description: 'Welcome & rules overview' },
-    { time: 'Saturday 12:00 PM', event: 'Hacking Begins!', description: 'Let the coding commence' },
+    { time: 'Saturday 12:00 PM', event: 'Hacking Begins! & Team Matching', description: 'Let the coding commence and find your teammates' },
     { time: 'Saturday 1:00 PM', event: 'Lunch', description: 'Midday meal to fuel your creativity' },
+    { time: 'Saturday 2:00 PM', event: 'GitHub Copilot/GitHub Workshop', description: 'Learn GitHub and AI-powered coding tools' },
+    { time: 'Saturday 4:00 PM', event: 'Supabase Workshop', description: 'Build with the open source Firebase alternative' },
+    { time: 'Saturday 5:00 PM', event: 'Google AI Studio Workshop', description: 'Explore Google\'s AI development tools' },
     { time: 'Saturday 6:00 PM', event: 'Dinner', description: 'Evening meal' },
-    { time: 'Saturday 8:00 PM', event: 'Tech Talks', description: 'Industry experts share insights' },
-    { time: 'Saturday 11:59 PM', event: 'Midnight Snacks', description: 'Late night energy boost' },
+    { time: 'Saturday 8:00 PM', event: 'Super Smash Bros Ultimate Tourney', description: 'Take a break and compete!' },
+    { time: 'Sunday 12:00 AM', event: 'Midnight Snacks', description: 'Late night energy boost' },
     { time: 'Sunday 8:00 AM', event: 'Breakfast', description: 'Final fuel before submissions' },
-    { time: 'Sunday 12:00 PM', event: 'Hacking Ends (Soft Deadline)', description: 'Time to finalize your projects' },
-    { time: 'Sunday 12:30 PM', event: 'Submissions Deadline & Lunch', description: 'Hard deadline for submissions' },
+    { time: 'Sunday 10:00 AM', event: 'Devpost Workshop', description: 'Learn how to submit your project' },
+    { time: 'Sunday 12:00 PM', event: 'Hacking Ends', description: 'Time to finalize your projects' },
+    { time: 'Sunday 12:30 PM', event: 'Lunch', description: 'Final meal before judging' },
     { time: 'Sunday 1:00 PM', event: 'Judging Begins', description: 'Present your projects to judges' },
     { time: 'Sunday 2:30 PM', event: 'Judging Ends', description: 'All presentations complete' },
     { time: 'Sunday 3:00 PM', event: 'Closing Ceremony', description: 'Awards and celebration!' },
@@ -185,7 +189,7 @@ export default function InfoPage() {
                 <div>
                   <h3 className="text-xl font-semibold text-osu-black">When</h3>
                   <p className="text-gray-600">November 1-2, 2025</p>
-                  <p className="text-gray-600">Saturday 12:00 PM - Sunday 3:00 PM</p>
+                  <p className="text-gray-600">Saturday 12:00 PM - Sunday 3:30 PM</p>
                 </div>
               </div>
             </motion.div>
@@ -204,7 +208,7 @@ export default function InfoPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-osu-black">Where</h3>
-                  <p className="text-gray-600">Engineering South</p>
+                  <p className="text-gray-600">Advanced Technology Research Center</p>
                   <p className="text-gray-600">Oklahoma State University</p>
                   <p className="text-gray-600">Stillwater, OK</p>
                 </div>

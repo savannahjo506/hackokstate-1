@@ -59,35 +59,5 @@ export const teamData: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/jase-scott-a76980309",
     instagram: "",
     website: "https://jscott3234.github.io/"
-  },
-  {
-    name: "Justin Muoa",
-    role: "Organizer",
-    bio: "Software Developer and IT Support w/ a B.S. in Computer Science and a passion for AI/ML and sharing knowledge.",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/JustinMoua",
-    linkedin: "https://www.linkedin.com/in/justin-moua/",
-    instagram: "",
-    website: ""
-  },
-  {
-    name: "Charles Bruce",
-    role: "Organizer",
-    bio: "Placeholder.",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/Flubberknuckle",
-    linkedin: "https://www.linkedin.com/in/charles-bruce-169431244/",
-    instagram: "",
-    website: ""
-  },
-  {
-    name: "Danny Nguyen",
-    role: "Organizer",
-    bio: "Chaewon Fanboy and likes building stuff with AI ",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/codingpenguin",
-    linkedin: "https://linkedin.com/in/danmaruchi",
-    instagram: "https://instagram.com/danmaruchi",
-    website: ""
   }
 ];
