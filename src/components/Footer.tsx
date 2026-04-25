@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-xl sm:text-2xl font-bold">
-              Hack OKState <span className="text-osu-orange">'25</span>
+              Hack OKState <span className="text-osu-orange">'26</span>
             </h3>
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Oklahoma State University's premier hackathon bringing together innovators, 
@@ -118,7 +118,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
           <p className="text-gray-400 text-xs sm:text-sm px-4">
-            © 2025 Hack OKState. All rights reserved. Made with ❤️ at Oklahoma State University.
+            © 2026 Hack OKState. All rights reserved. Made with ❤️ at Oklahoma State University.
             <br />
             <a href="/code-of-conduct.md" target="_blank" rel="noopener noreferrer" className="text-osu-orange hover:text-osu-orange-light underline">
               MLH Code of Conduct

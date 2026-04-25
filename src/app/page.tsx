@@ -100,7 +100,7 @@ export default function Home() {
               >
                 <span className="text-osu-black">Hack</span>{' '}
                 <span className="text-osu-orange">OKState</span>{' '}
-                <span className="text-osu-black">'25</span>
+                <span className="text-osu-black">'26</span>
               </motion.h1>
               
               <motion.p 
@@ -157,7 +157,7 @@ export default function Home() {
             >
               <div className="flex items-center space-x-2">
                 <Calendar className="w-5 h-5 text-osu-orange" />
-                <span className="font-medium">November 1-2, 2025</span>
+                <span className="font-medium">TBA</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-5 h-5 text-osu-orange" />
@@ -253,7 +253,7 @@ export default function Home() {
               className="inline-flex items-center space-x-3 bg-white text-osu-orange px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full sm:w-auto justify-center"
             >
               <Users className="w-5 h-5" />
-              <span>Register for Hack OKState '25</span>
+              <span>Register for Hack OKState '26</span>
             </a>
             
             <a 

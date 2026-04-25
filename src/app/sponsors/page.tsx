@@ -155,7 +155,7 @@ export default function SponsorsPage() {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Our Sponsors</h1>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Thank you to our amazing sponsors who make Hack OKState '25 possible
+              Thank you to our amazing sponsors who make Hack OKState '26 possible
             </p>
           </motion.div>
         </div>

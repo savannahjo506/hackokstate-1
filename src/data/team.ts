@@ -10,16 +10,7 @@ export interface TeamMember {
 }
 
 export const teamData: TeamMember[] = [
-  {
-    name: "Colter Holmes",
-    role: "Executive Director",
-    bio: "Computer Engineering student and Microsoft Software Engineering intern dedicated to organizing Hack OKState and inspiring collaboration in tech.",
-    image: "/team/colter.jpg",
-    github: "https://github.com/retlocpeck",
-    linkedin: "https://linkedin.com/in/colterholmes",
-    instagram: "https://instagram.com/imcolter",
-    website: "https://heardle.live"
-  },
+
   {
     name: "Ricardo Mulino",
     role: "Executive Co-Director",
@@ -53,7 +44,7 @@ export const teamData: TeamMember[] = [
   {
     name: "Jase Scott",
     role: "Outreach Director",
-    bio: "Computer Science Undergrad, Fullstack Programmer, OSU VR/AR Researcher, ACM Community Outreach Officer, Video Game Development Club Officer.",
+    bio: "Secretary of ACM, Secretary of Video Game Development Club, Logistics Director of HackOKState.",
     image: "/team/jase.jpg",
     github: "https://github.com/JScott3234",
     linkedin: "https://www.linkedin.com/in/jase-scott-a76980309",
@@ -61,15 +52,16 @@ export const teamData: TeamMember[] = [
     website: "https://jscott3234.github.io/"
   },
   {
-    name: "Justin Muoa",
-    role: "Organizer",
-    bio: "Software Developer and IT Support w/ a B.S. in Computer Science and a passion for AI/ML and sharing knowledge.",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/JustinMoua",
-    linkedin: "https://www.linkedin.com/in/justin-moua/",
+    name: "Savannah Hamblin",
+    role: "Web Dev",
+    bio: "Computer Science Undergrad, IT and Security Analyst Intern, Software Engineer Intern, OSU Cowboy Marching Band Member.",
+    image: "/team/savannah.jpg",
+    github: "https://github.com/savannahjo506",
+    linkedin: "https://www.linkedin.com/in/savannah-hamblin-70927b237",
     instagram: "",
     website: ""
   },
+  
   {
     name: "Charles Bruce",
     role: "Organizer",
