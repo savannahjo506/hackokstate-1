@@ -52,6 +52,16 @@ export const teamData: TeamMember[] = [
     website: "https://jscott3234.github.io/"
   },
   {
+    name: "Timothy Pizzaro",
+    role: "Infrastructure & Social Media",
+    bio: "Secretary of ACM, Secretary of Video Game Development Club, Logistics Director of HackOKState.",
+    image: "/team/timothyolder.jpg",
+    github: "https://github.com/JScott3234",
+    linkedin: "https://www.linkedin.com/in/jase-scott-a76980309",
+    instagram: "",
+    website: "https://jscott3234.github.io/"
+  },
+  {
     name: "Savannah Hamblin",
     role: "Web Dev",
     bio: "Computer Science Undergrad, IT and Security Analyst Intern, Software Engineer Intern, OSU Cowboy Marching Band Member.",
