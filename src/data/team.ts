@@ -61,25 +61,4 @@ export const teamData: TeamMember[] = [
     instagram: "",
     website: ""
   },
-  
-  {
-    name: "Charles Bruce",
-    role: "Organizer",
-    bio: "Placeholder.",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/Flubberknuckle",
-    linkedin: "https://www.linkedin.com/in/charles-bruce-169431244/",
-    instagram: "",
-    website: ""
-  },
-  {
-    name: "Danny Nguyen",
-    role: "Organizer",
-    bio: "Chaewon Fanboy and likes building stuff with AI ",
-    image: "/team/jessica.jpg",
-    github: "https://github.com/codingpenguin",
-    linkedin: "https://linkedin.com/in/danmaruchi",
-    instagram: "https://instagram.com/danmaruchi",
-    website: ""
-  }
 ];

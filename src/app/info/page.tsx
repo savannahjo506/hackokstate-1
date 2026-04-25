@@ -159,7 +159,7 @@ export default function InfoPage() {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Event Information</h1>
             <p className="text-lg sm:text-xl opacity-90 max-w-3xl mx-auto px-4">
-              Everything you need to know about Hack OKState '25
+              Everything you need to know about Hack OKState '26
             </p>
           </motion.div>
         </div>
@@ -184,8 +184,8 @@ export default function InfoPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-osu-black">When</h3>
-                  <p className="text-gray-600">November 1-2, 2025</p>
-                  <p className="text-gray-600">Saturday 12:00 PM - Sunday 3:00 PM</p>
+                  <p className="text-gray-600"></p>
+                  <p className="text-gray-600"></p>
                 </div>
               </div>
             </motion.div>
